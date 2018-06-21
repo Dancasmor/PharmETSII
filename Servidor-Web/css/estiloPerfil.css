@@ -1,0 +1,62 @@
+#tittle_pedidos_prov{
+	clear:both;
+	margin-left:20px;
+}
+#prov_pedidos {
+	clear:both;
+	margin-left:10px;
+	margin-bottom:20px;
+}
+#id_pedidos_prov{
+	margin-top:10px;
+	width: 240%;
+	margin-bottom:30px;
+}
+#id_lineas_prov{
+	width: 100%;
+	margin-bottom:30px;
+	clear:both;
+	display:inline-block
+}
+#item_linea_prov{
+	width: 15%;
+	float:left;
+	margin-left:20px;
+	margin-bottom:20px;	
+}
+#id_envios_prov{
+	float:left;
+	margin-left:20px;
+	padding-right:20px;
+	display:inline-block
+	width: 100%;
+	clear:both;
+}
+#item_envios_prov{
+	width: 120%;
+	float:left;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+#tittle_factura_prov{
+	margin-left:20px;
+	margin-bottom:20px;
+}
+#id_facturas_prov{
+	margin-top:2px;
+}
+#item_facturas_prov{
+	width: 120%;
+	float:left;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+#crear_envio_prov{
+	margin-left:50px;
+	width: 75%;
+}
+#factura_prov{
+	margin-left:30%;
+	margin-top:30px;
+	margin-bottom:30px;
+}

@@ -1,0 +1,25 @@
+/*BOTONES DE LAS BOLSAS*/
+
+#cambiar_bolsa,#eliminar_bolsa,#boton_desplegar{
+	height:22px;
+	width:27px;
+}
+#imagen_modificar,#imagen_eliminar,#imagen_desplegar{
+	width:120%;
+	height:100%;
+}
+#texto_pedido{
+	font-family: Geneva;
+}
+#boton_desplegar,#cambiar_bolsa,#eliminar_bolsa,#realizar_pedido{
+	border-radius:3px;
+	background-color:#c7facf;
+}
+#pedidosUsuario,#ped_rel,#prod_bol,#bolsas{
+	text-align:center;
+}
+
+#pedidosUsuario{
+	margin-bottom:15px;
+}
+

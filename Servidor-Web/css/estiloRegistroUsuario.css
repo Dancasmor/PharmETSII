@@ -1,0 +1,38 @@
+
+#titulo_regus{
+	font-size: 200%;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color:#143c11;
+}
+#formulario_usr input,#formulario_usr select{
+	border-radius:3px;
+	background-color:#fff;
+	border-style:groove;
+}
+#formulario_usr label{
+	margin-left:10px;
+}
+#formulario_usr{
+	padding-top:3%;
+	border: 2px solid green;
+	margin-bottom:2%;
+	background-color:#e6fce7;
+}
+
+#formulario_usr button{
+	border-style: outset;
+	margin-bottom:6px;
+	border-radius:3px;
+	background-color:#e6fce7;
+	border-color:#a0fca3;
+}
+
+#datos_personales, #datosSecundarios{
+	padding-bottom:12px;
+	border-bottom: 1px solid #143c11;
+}
+
+.espacio{
+	margin-top: 0 !important; 
+}

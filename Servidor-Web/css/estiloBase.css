@@ -1,0 +1,332 @@
+h1{font-family: Georgia, serif;}
+
+p{font-family: Georgia, serif oblique;}
+
+body{
+	overflow-x: hidden;
+}
+input, select{
+	border-radius:3px;
+	background-color:#fff;
+	border-style:groove;
+}
+#usuario_login, #contraseña_login, #login {
+    width: 100%;
+    height: 35px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    padding: 35px;
+    text-align: center;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#portada{
+	border-radius: 15%;
+}
+
+h2{
+	font-size: 180%;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color:#006000;
+}
+
+.img_portada{
+	width: 75%;
+	text-align: center;
+	margin-left: 12%;
+	color:#006000;
+	font-family: Geneva, sans-serif;
+	
+}
+
+#contenido_principal{
+	background-color: #4CAF50;
+}
+
+#button, #login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 14px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;	
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+	
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 20%; /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	background-color:#FFFFFF;
+	margin:0;
+	font-family: Georgia, serif oblique;
+	font-size: 100%;
+}
+
+footer{
+	color:white;
+	background-color:#4CAF50;
+	height: 60px;
+}
+
+footer a{
+	color: white;
+	 text-decoration: none;
+}
+
+/*ESTILOS PARA ELEMENTOS ID*/
+
+
+/*--------------------Menu------------------------*/
+	#menu_ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: #4CAF50;
+	    font-family: Georgia;
+	}
+	
+	.menu_li {
+	    float: left;
+	}
+	
+	.menu_li a {
+	    display: block;
+	    color: white;
+	    padding: 10px 12px;
+	    text-decoration: none;
+	}
+	
+	.menu_li input {
+	    display: block;
+	    padding: 4px 12px;
+	    height: 17px;
+	    margin-top: 7px;
+	    margin-left: 15px;
+	    background-color:#ffffff;
+	    color:black;
+	    border: 1px solid green;
+	    border-radius: 4px;
+	    text-decoration: none;
+	}
+	
+	.menu_li a:hover {
+	    background-color: #2aaf28;
+	    cursor:pointer;
+	}
+/*///////////////////////////////////////*/
+	.menu_li2 {
+	    float: right;
+	}
+	
+	.menu_li2 a {
+	    color: white;
+	    padding: 10px 12px;
+	    text-decoration: none;
+	    display: block;
+	}
+	#registrate{
+		color:#191ce1;
+		padding:5px;
+		text-align: center;
+		text-decoration: none;
+	}
+	#registrate :hover{
+		color: white;
+	}
+	
+	.menu_li2 a img{
+	    width:21px;
+	    padding:0;
+	}
+	
+	.menu_li2 input {
+	    padding: 4px 20px;
+	    margin-top: 6px;
+	    background-color:#ffffff;
+	    border-radius:5px;
+	    text-decoration: none;
+	}
+	#usuario_login,#contraseña_login{
+		background-color:#ffffff;
+	}
+	.menu_li2 form {
+	    color:black;
+	}
+	
+	.menu_li2 a:hover {
+	    background-color: #2aaf28;
+	    cursor:pointer;
+	}
+	
+/*--------------------------------------------------*/
+
+/*-------------------CONTENIDO----------------------*/
+
+#contenidoPrincipal{
+	margin-left:1%;
+	margin-right:1%;
+}
+
+
+/*--------------------------------------------------*/
+
+
+/*---------------------FOOTER------------------------*/
+#contacto{
+
+}
+#contacto a{
+	padding: 1%;
+	display:block;
+	float:right;
+	
+}
+#contacto :hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+#imagenes img{
+	height:30px;
+	width:30px;
+	padding:1%;
+}
+#imagenes :hover{
+	cursor: pointer; 
+}
+
+/*---------------------------------------------------*/
+#portada{
+	width: 100%;
+	height: 100%;
+	/*background-image: url(http://localhost/FARMA/Principal/Images/fondo.png);*/
+	background-color: #ffffff;
+	padding: 1%
+}
+#busqueda_producto2{
+	width:80px;
+}
+
+#icono{
+	width: 35%;
+	height:30%;
+}
+#logo_principal{
+	width: 80%;
+	height: 80%;
+}
+#logo_principal:hover{
+	cursor:pointer;
+}
+
+.error{
+	height:3%;
+	color: red;
+	background-color: #FE9395;
+	border-bottom: 1px solid red;
+	border-radius:4px;
+	margin-left:1%;
+	margin-right:1%;
+	
+}
+#error p{
+	margin:1px;
+	padding-left: 1%;
+}
+
+/*ESTILOS DE VALIDACION*/
+
+input:invalid {
+background-color: #F77977;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px 100px;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

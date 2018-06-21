@@ -1,0 +1,80 @@
+#logo_almacen{
+	width: 60px;
+	height: 60px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#titulo_cercanas{
+	color:#006000;
+	font-family: Geneva, sans-serif;
+	font-size: 180%;
+}
+
+#logo_pedidos{
+	width: 60px;
+	height: 60px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#logo_empleados{
+	width: 60px;
+	height: 60px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#logo_nomina{
+	width: 60px;
+	height: 60px;
+	padding: 5px;
+	margin-top: 20px
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px 40px;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(220, 255, 220, 0.8);
+  border: 3px solid rgba(0, 100, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+#presentacion1{
+	padding: 20px; 
+	background-color: #4CAF50; 
+	color: white; 
+	border-radius: 50px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#presentacion2{
+	padding: 5px; 
+	margin-left: 20px;
+}
+
+#presentacion3{
+	padding: 5px; 
+	margin-left: 60px;
+}
+
+#presentacion4{
+	padding: 5px; 
+	margin-left: 100px;
+}
+
+#presentacion5{
+	padding: 20px;
+}
+
+#registrate

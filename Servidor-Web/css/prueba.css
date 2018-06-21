@@ -1,0 +1,47 @@
+form .botones img{
+	width: 20px;
+    height: 20px;
+}
+
+#div_error p{
+	color: red;
+	border: red 2px solid;
+}
+
+.err_p{
+	visibility: visible !important;
+	display:block;
+}
+
+#error_pedido, #error_envio, #error_almacen, #error_farmacia, #error_proveedor, #error_fecha,
+#error_pedido_proveedor, #error_lote, #error_pedido_almacen, #error_producto, #error_cantidad,
+#error_email, #error_pass, #error_fecha_nac, #error_fecha_alta, #error_dni, #error_usuario_empresa,
+#error_usuario_contacto, #error_seccion_almacen, #error_seccion_producto,
+
+#error_cambiar_contraseña, #error_cambiar_contraseña_confirmacion,
+
+
+#error_existe_dni_emp,#error_existe_dni_farm,#error_contacto_empresa,#error_existe_contacto_empresa,#error_contacto_farmacia,
+#error_existe_contacto_farmacia,#error_existe_oid_empresa,#error_existe_oid_farmacia,
+#error_fecha_nac_emp,#error_fecha_nac_farm,#error_contrasenya_empleado,#error_confirmacion_contrasenya_empleado,
+#error_dni_empleado,#error_fecha_alta_emp,#error_fecha_alta_farm,
+
+#error_prov_lab, #error_existe_contacto_proveedor, #error_contacto_proveedor,
+#error_contrasenya_proveedor, #error_confirmacion_contrasenya_proveedor,
+
+#error_almacen,#error_proveedor,#error_fecha,
+
+#error_pedido,#error_almacen,#error_envio
+{
+	visibility: hidden;
+	display:none;
+}
+
+.err {
+	background-color: red !important;
+	display:block;
+}
+
+label{
+	width: 50%;
+}
